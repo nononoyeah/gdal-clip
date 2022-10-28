@@ -1,0 +1,32 @@
+{
+  "name": "@nononoyeah/gdal-clip",
+  "version": "1.0.0",
+  "description": "clip tif using gdal",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nononoyeah/gdal-clip.git"
+  },
+  "keywords": [
+    "gdal",
+    "gdal-clip",
+    "nononoyeah"
+  ],
+  "files": [
+    "index.js",
+    "install.js"
+  ],
+  "author": "nononoyeah",
+  "license": "ISC",
+  "homepage": "https://github.com/nononoyeah/gdal-clip#readme",
+  "dependencies": {
+    "gdal-async": "^3.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
