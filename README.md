@@ -4,13 +4,13 @@ clip tif using gdal
 ## Install
 
 ```sh
-$ npm i @gdal-clip
+$ npm i @nononoyeah/gdal-clip
 ```  
 
 ## Usage  
 
 ```js
-const gdalClip = require('@gdal-clip');
+const gdalClip = require('@nononoyeah/gdal-clip');
 
 const src = 'xxx.tif';
 const dst = {
